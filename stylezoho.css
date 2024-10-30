@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.zoho-lg {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+  height: 50px;
+}
+.menu a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+}
+
+.nav-actions a {
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #e50914;
+}
+
+.signup-btn {
+  background-color: #e50914;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 5px;
+}
+
+.signup-btn:hover {
+  background-color: #f61f28;
+}
+
+.main-content {
+  display: flex;
+  padding: 60px;
+  background-color: #f0cd0ac0; 
+  color: #000;
+  height: 80vh;
+}
+
+.left-content {
+  width: 50%;
+}
+
+.left-content h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.left-content h2 {
+  color: #5d5c5c;
+}
+
+.left-content p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.try-btn {
+  background-color: #e50914;
+  color: #fff;
+  padding: 15px 30px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.try-btn:hover {
+  background-color: #f61f28;
+}
+
+.right-content {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonial {
+  max-width: 400px;
+  text-align: center;
+}
+
+.testimonial p {
+  font-size: 20px;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.author {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.author img {
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.author-info p {
+  margin: 0;
+  font-size: 16px;
+}

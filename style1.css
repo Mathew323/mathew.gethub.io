@@ -1,0 +1,339 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(223, 126, 126);
+    padding: 10px 20px;
+}
+
+.navbar .logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: ;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #3498bd;
+}
+
+.burger {
+    display: none;
+    flex-direction: colum;
+    cursor: pointer;
+}
+
+.burger div {
+    width: 25;
+    height: 3px;
+    background-color: white;
+    margin: 5px;
+    transition: transform 0.3s ease;
+}
+
+@media screen and (max-width: 768px) {
+    .nav-links {
+        display: none;
+        position: absolute;
+        right: 0;
+        top: 60px;
+        background-color: rgb(9, 85, 9);
+        width: 100%;
+        height: 100vh;
+        flex: auto;
+    }
+}
+
+.hero-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 50px;
+    background-color: #f4f4f4;
+    height: 100%;
+}
+
+.hero-text {
+    padding: 20px;
+}
+
+.hero-text h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.hero-text p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.hero-text .btn {
+    padding: 10px 20px;
+    background-color: rgb(3, 36, 3);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hero-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 10px 10px 200px rgb(159, 181, 196)
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.card :hover {
+    transform: translateY(-10px);
+}
+
+.card-img {
+    width: 100%;
+    height: auto;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 24px;
+    margin: 0 0 10px;
+    color: #333;
+}
+
+.card-description {
+    font-size: 16px;
+    color: #666;
+    margin: 0 0 20px;
+}
+
+.card-button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.card-button :hover {
+    background-color: #2980b9;
+}
+
+.card {
+    padding: 
+}
+.meta2 {
+    display: flex;
+    padding: 10px;
+    gap: 20px 20px;
+}
+
+.meta2 :hover {
+    background-color: gray;
+    color: white;
+    box-shadow: 5px 5px 10px gray;
+}
+
+.services-hero {
+    height: 100vh;
+    background: fixed;
+    background-size: cover;
+    background-image: url(Image/Fashion-Store2.jpg);
+    background-position: center;
+    justify-content: left;
+    align-items: center;
+    text-align: left;
+    display: flex;
+    padding-left: 30px;
+}
+
+.services-text {
+    color: rgb(4, 8, 56);
+    font-size: 3rem;
+}
+
+.services-text .services-button {
+    padding: 10px 20px;
+    background-color: rgb(3, 36, 3);
+    text-decoration: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    list-style: none;
+}
+
+.services-d {
+    padding-bottom: 40px;
+}
+
+.about-section {
+    padding: 3rem;
+    background-color: #fff;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    max-width: 1200px;
+}
+
+.h1, h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #333;
+}
+
+.team {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.team-member:hover{
+    box-shadow: 5px 5px 10px white;
+    padding: 10px;
+    background-color: #f8d77d;
+}
+
+.team-member:hover{
+    box-shadow: 5px 5px 10px white;
+    padding: 10px;
+    background-color: #8d9cf0;
+}
+
+.team-member:hover{
+    box-shadow: 5px 5px 10px white;
+    padding: 10px;
+    background-color: #66e96d;
+}
+
+.team-member:hover{
+    box-shadow: 5px 5px 10px white;
+    padding: 10px;
+    background-color: #bff87d;
+}
+
+.team-member {
+    text-align: center;
+    width: 30%;
+}
+
+.team-member img{
+    width: 100%;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.team-member h3 {
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+}
+
+.team-member p {
+    font-size: 1rem;
+    color: #777;
+}
+
+.team-member img:hover{
+    box-shadow: 5px 5px 10px gray;
+    border: none;
+    border-radius: 40%;
+    padding: 10px;
+    background-color: gray;
+    transition: transform 0.3s ease;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 2px;
+    text-align: center;
+}
+
+.form-container {
+    background: rgba(90, 68, 212, 0.5);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    padding: 30px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.5);
+    margin: auto;
+}
+
+form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: 700;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 6px;
+    color: #333;
+}
+
+.input-group input, .input-group select, .input-group textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    outline: none;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #065f00;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #034900;
+}
+
+@media (max-width: 768px) {
+    .form-container {
+        padding: 20px;
+    }
+}
+

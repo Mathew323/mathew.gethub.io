@@ -1,0 +1,27 @@
+.flix {
+    background-image: url(Image/netflix\ background.jpeg);
+    display:grid;
+    height: 500px;
+}
+
+.net {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+    margin-top: -110px;
+}
+
+.mov {
+    text-align: center;
+    margin-top: -200px;
+}
+
+.mail {
+    align-items: center;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+}

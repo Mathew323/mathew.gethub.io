@@ -1,0 +1,135 @@
+.hero-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 50px;
+    background-color: #f4f4f4;
+    height: 100%;
+}
+
+.hero-text {
+    padding: 20px;
+}
+
+.hero-text h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.hero-text p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.hero-text .btn {
+    padding: 10px 20px;
+    background-color: rgb(3, 36, 3);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hero-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 10px 10px 200px rgb(159, 181, 196)
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.card :hover {
+    transform: translateY(-10px);
+}
+
+.card-img {
+    width: 100%;
+    height: auto;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 24px;
+    margin: 0 0 10px;
+    color: #333;
+}
+
+.card-description {
+    font-size: 16px;
+    color: #666;
+    margin: 0 0 20px;
+}
+
+.card-button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.card-button :hover {
+    background-color: #2980b9;
+}
+
+.card {
+    padding: 
+}
+.meta2 {
+    display: flex;
+    padding: 10px;
+    gap: 20px 20px;
+}
+
+.meta2 :hover {
+    background-color: gray;
+    color: white;
+    box-shadow: 5px 5px 10px gray;
+}
+
+
+
+.hero-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 50px;
+    background-color: #f4f4f4;
+    height: 100%;
+}
+
+.hero-text {
+    padding: 20px;
+}
+
+.hero-text h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.hero-text p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+
+.hero-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}

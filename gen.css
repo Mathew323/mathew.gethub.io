@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.inquiries-section {
+    text-align: center;
+    padding: 50px;
+    background-color: #007bff;
+    color: white;
+}
+
+.inquiries-section h1 {
+    font-size: 2.5rem;
+}
+
+.inquiries {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 30px;
+}
+
+.inquiry-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    color: black;
+    text-align: center;
+}
+
+.inquiry-box h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.inquiry-box a {
+    color: #007bff;
+    display: block;
+    margin: 10px 0;
+    text-decoration: none;
+}
+
+.inquiry-box p {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}

@@ -1,0 +1,351 @@
+/* .student {
+    border: solid 1px red;
+    border-radius: 60px;
+    width: 100%;
+
+}
+
+
+.student th, .student tr {
+    background-color: green;
+    color: white;
+    font: bold;
+}
+
+.student th :hover {
+    background-color: rgb(7, 63, 7);
+    color: white;
+}
+
+
+td {
+    background-color: gray;
+    color: white;
+}
+td:hover {
+    background-color: rgb(199, 192, 192);
+    color: black;
+} */
+
+
+.phone {
+    padding: 60px;
+    margin: 60px;
+    text-align:center;
+    font: bold;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    border-color: orangered;
+    border-style: solid;
+    border-width: 6px;
+    border-radius: 16px;
+    background-color: aqua;
+    background-image: url(Image/IMG_20240905_221923.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+
+}
+
+.phone:hover {
+    background-image: url(Image/guess.jpg);
+    color: red;
+}
+
+
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+
+}
+
+img {
+    border: 1px solid green;
+    border-radius: 10px;
+}
+
+
+
+.figma {
+    padding: 60px;
+    margin: 60px;
+    text-align:center;
+    font: bold;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    border-color: rgb(11, 116, 202);
+    border-style: solid;
+    border-width: 6px;
+    border-radius: 16px;
+    background-color: white;
+    background-image: url(Image/Home.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.figma:hover {
+    background-image: url(Image/End.jpg);
+    color: red;
+}
+
+
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.card :hover {
+    transform: translateY(-10px);
+}
+
+.card-img {
+    width: 100%;
+    height: auto;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 24px;
+    margin: 0 0 10px;
+    color: #333;
+}
+
+.card-description {
+    font-size: 16px;
+    color: #666;
+    margin: 0 0 20px;
+}
+
+.card-button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.card-button :hover {
+    background-color: #2980b9;
+}
+
+.card {
+    padding: 
+}
+.hey {
+    display: flex;
+    padding: 10px;
+    gap: 20px;
+}
+
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#customers td, #customers th {
+border: 1px;
+padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04aa6d;
+    color: white;
+}
+
+img {
+    /* position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    position: absolute; */
+    float: left;
+}
+
+.zindex {
+    position: absolute;
+    background-color: #be9554;
+    color: white;
+    opacity: 0.9;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: ;
+    /* overflow: scroll;
+    width: 50%;
+    height: 250px; */
+}
+
+button {
+    background-color: rgb(255, 0, 0);
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    /* transition: background-color 3.5s ease; */
+    /* transition: width 0.5s ease-in-out, height 0.5s ease-in-out; */
+    transition: opacity 0.45s linear;
+}
+
+
+
+button:hover {
+   opacity: 1;
+}
+
+.readmore{
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 60px;
+    transition: opacity 0.4s linear;
+    cursor: pointer;
+    transition: transform 0.5s, background-color 0.5s;
+    animation: fadeIn 5s ease-in-out;
+}
+
+@keyframes fadeIn{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.readmore:hover{
+    background-color: black;
+    border-radius: 20px;
+    color: white;
+    border: 2px brown solid;
+    transform: rotate(360deg)scale(1.2);
+}
+
+.learnmore{
+    background-color: aqua;
+    color: red;
+    padding: 10px 20px;
+    border: 2px solid red;
+    border-radius: 60px;
+    cursor: pointer;
+    outline: none;
+    transition: transform 0.4s ease;
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+.learnmore:active{
+    transform: scale(0.9s);
+}
+
+.learnmore:hover{
+    background-color: red;
+    color: aqua;
+    border-radius: 20px;
+    border: 2px purple solid;
+}
+
+.submit{
+    background-color: rgb(39, 211, 53);
+    color: white;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 60px;
+    position: relative;
+    overflow: hidden;
+    outline: none;
+    transition: background-color 0.4s; transform: 0.4s;
+}
+
+.submit::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300px;
+    height: 300px;
+    background: rgba(255, 255, 255,0.5);
+    transform: translate(-50%, -50%)scale(0);
+    border-radius: 50%;
+    transition: transform 0.6s ease-out;
+    z-index: 0;
+}
+
+.submit:hover::before{
+    transform: translate(-50%, -50%)scale(1);
+}
+
+.submit:active::before{
+    transition: none;
+    transform: translate(-50%, -50%)scale(0);
+}
+
+.submit:hover{
+    background-color: white;
+    color: rgb(39, 211, 53);
+    border-radius: 30px;
+    border: 4px black solid;
+}
+
+.signin{
+    background-color: rgb(76, 0, 255);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 60px;
+    transition: opacity 0.4s linear;
+}
+
+.signin:hover{
+    background-color: white;
+    color: greenyellow;
+    border: 3px red solid;
+    border-radius: 30px;
+}
+
+.login{
+    background-color: rgb(255, 217, 0);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 60px;
+    transition: opacity 0.4s linear;
+}
+
+.login:hover{
+    background-color: white;
+    color: red;
+    border-radius: 40px;
+    border: 4px green solid;
+}
